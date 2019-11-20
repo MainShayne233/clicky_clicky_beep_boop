@@ -1,0 +1,17 @@
+/*
+  This is how you write comments in CSS.
+
+  First of all, don't worry about being good at CSS. Literally nobody is, and I always have to google
+  how to do stuff.
+
+  All you have to know is that this is where you define the rules for how your webpage should look.
+
+  In this case, I'm saying the the app <div> should center all of its children elements and align them
+  in a column formation.
+*/
+
+#app {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

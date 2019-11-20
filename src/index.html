@@ -1,0 +1,38 @@
+<!-- This is an HTML comment. The web browser ignores these lines completely -->
+
+<!--
+  Usually you need to import quite a few things into the web page, like a CSS stylesheet to help
+  make the page look good. The <head> section is where you declare most of these imports.
+
+  Here, we're just saying "Go get the stylesheet that's called main.css and load it onto the page
+-->
+<head>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<!--
+  The <body> is where your actual content goes; the stuff that will actually show up on the page.
+-->
+<body>
+  <!--
+    You can think of a <div> as just like a "section" of the page.
+
+    You can have as many <div>'s as you want, but here we just have one to be the main "section" for the whole app.
+
+    We get it an id because that allows us to refer to it by name in our CSS and JavaScript.
+  -->
+  <div id="app">
+    <!-- <h1>'s are just the big title text for the page -->
+    <h1>Clicky Clicky Beep Boop</h1>
+    <!-- This is obviousily a button, and we've also given it an id so we can refer to it later -->
+    <button id="mine-bitcoin-button">Mine Bitcoin</button>
+    <!-- <p>'s are just for normal text -->
+    <p>Total bitcoins mined: 0</p>
+  </div>
+
+  <!--
+    This is similar to the <link> in our <head> that is importing the CSS file, but instead
+    we are importing our JavaScript file that's called main.js. It's normal to load this at the bottom of your HTML file.
+  -->
+  <script type="text/javascript" src="main.js"></script>
+</body>
