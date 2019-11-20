@@ -4,9 +4,12 @@
   Usually you need to import quite a few things into the web page, like a CSS stylesheet to help
   make the page look good. The <head> section is where you declare most of these imports.
 
-  Here, we're just saying "Go get the stylesheet that's called main.css and load it onto the page
+  Here, we're just saying:
+  - "Use UTF-8 encoding" (Don't worry about this)
+  - "Go get the stylesheet that's called main.css and load it onto the page
 -->
 <head>
+  <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 
@@ -27,7 +30,8 @@
     <!-- This is obviousily a button, and we've also given it an id so we can refer to it later -->
     <button id="mine-bitcoin-button">Mine Bitcoin</button>
     <!-- <p>'s are just for normal text -->
-    <p>Total bitcoins mined: 0</p>
+    <p>Total bitcoins mined: </p>
+    <p>0</p>
   </div>
 
   <!--
