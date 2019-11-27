@@ -19,6 +19,16 @@ var mineBitcoinButton = document.getElementById("mine-bitcoin-button");
 // - An event listener is just something that says: "I want to run some code whenever something specific happens to this element".
 // - In this case, we're saying: "Whenever the button gets clicked, I want you to print to a message to the console"
 mineBitcoinButton.addEventListener("click", function() {
-  console.log("You clicked me, but I do not do anything yet");
+  //console.log("You clicked me, but I do not do anything yet");
+    var value;
+
+    value = document.getElementById('add').innerText;
+    value = parseInt(value) + 1;
+    document.getElementById('add').innerText = value;
+
+
+
+
+
   // If you ever wanted something else to happen when you click the button, you'd add that code here.
 })
